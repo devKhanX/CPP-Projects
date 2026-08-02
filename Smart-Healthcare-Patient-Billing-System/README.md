@@ -1,4 +1,4 @@
-**** Smart Healthcare Patient & Billing System ****
+Smart Healthcare Patient & Billing System
 
 Overview
 
