@@ -1,6 +1,6 @@
-Smart Healthcare Patient & Billing System
+# Smart Healthcare Patient & Billing System
 
-Overview
+## Overview
 
 The Smart Healthcare Patient & Billing System is a console-based C++ project developed to manage basic hospital operations.
 
@@ -8,7 +8,7 @@ The system allows users to manage patients and doctors, assign doctors to patien
 
 This project was developed to practice and demonstrate Object-Oriented Programming concepts in C++.
 
-Features
+## Features
 
 * Add new patients
 * Add doctors
@@ -47,7 +47,7 @@ The base class containing common information such as:
 
 ### Patient
 
-Inherits from Person and stores:
+Inherits from `Person` and stores:
 
 * Patient ID
 * Disease
@@ -55,7 +55,7 @@ Inherits from Person and stores:
 
 ### Doctor
 
-Inherits from Person and stores:
+Inherits from `Person` and stores:
 
 * Doctor ID
 * Specialization
@@ -78,7 +78,7 @@ Manages:
 * Medicine charges
 * Total bill
 
-The + operator is overloaded to combine bill components.
+The `+` operator is overloaded to combine bill components.
 
 ### HospitalSystem
 
@@ -95,17 +95,19 @@ It provides functionality for managing and displaying these records.
 
 * C++
 * Object-Oriented Programming
-* STL vector
+* STL `vector`
 
 ## How to Run
 
 1. Clone or download the repository.
-2. Open main.cpp in a C++ IDE or compiler.
+2. Open `main.cpp` in a C++ IDE or compiler.
 3. Compile the program using a C++ compiler.
 4. Run the program.
 5. Use the menu-driven interface to manage the healthcare system.
 
-Menu Options
+## Menu Options
+
+```text
 1. Add Patient
 2. Add Doctor
 3. Assign Doctor to Patient
@@ -118,7 +120,8 @@ Menu Options
 10. Show Patient Record
 11. Show Doctor By ID
 12. Exit
+```
 
-Project Purpose
+## Project Purpose
 
 This project was created as part of my C++ and Object-Oriented Programming learning journey to apply OOP concepts to a practical healthcare management scenario.
